@@ -28,6 +28,10 @@ The R programming language (R Core Team, 2019) and the following R packages were
 knitr::include_graphics("../../results/horse_pops_plot.png")
 ```
 
+```{r, fig.cap= 'Horse populations for all provinces in Canada from 1906 - 1972'}
+plot(cars)
+```
+
 Figure 1: Horse populations for all provinces in Canada from 1906 - 1972
 
 We can see from Figure 1 that Ontario, Saskatchewan and Alberta have had the highest horse populations in Canada. All provinces have had a decline in horse populations since 1940. This is likely due to the rebound of the Canadian automotive industry after the Great Depression and the Second World War. An interesting follow-up visualisation would be car sales per year for each Province over the time period visualised above to further support this hypothesis.
