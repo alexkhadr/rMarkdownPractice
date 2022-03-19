@@ -1,6 +1,6 @@
 ---
 title: 'DSCI 310: Historical Horse Population in Canada'
-author: "Tiffany Timbers & Jordan Bourak"
+author: "Alex Khadra"
 output:
   bookdown::html_document2
   bookdown::pdf_document2
@@ -55,3 +55,6 @@ Figure 2: Horse populations for the province with the largest standard deviation
 In Figure 2 we zoom in and look at the province of ?, which had the largest spread of values in terms of standard deviation.
 
 ### References
+
+knitr::write_bib("rmarkdown", file = "references.bib")
+
